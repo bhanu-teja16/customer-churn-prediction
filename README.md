@@ -1,89 +1,59 @@
-# Customer Churn Prediction
+# 📊 Customer Churn Prediction
 
-## Project Overview
+A machine learning web application that predicts whether a telecom customer is likely to churn based on their demographic information, services, contract details, and billing information.
 
-A machine learning-based web application that predicts whether a customer is likely to churn or stay.
+The project uses a trained machine learning model and a Flask web application to provide real-time churn predictions along with the estimated probability of churn.
 
-Users can enter customer information through an interactive web interface and receive a churn prediction along with an estimated churn probability.
+---
 
-## Features
+## 🚀 Project Overview
 
-- Customer churn prediction
-- Interactive web-based interface
-- Machine learning model integration
-- Categorical feature encoding
+Customer churn is a major challenge for telecom companies because losing existing customers can directly affect revenue.
+
+This project analyzes customer information and uses machine learning to predict whether a customer is likely to:
+
+- **Stay** with the company
+- **Churn** from the company
+
+The trained model is integrated with a Flask web application where users can enter customer details and receive a prediction instantly.
+
+---
+
+## ✨ Features
+
+- Customer churn prediction using Machine Learning
+- Interactive Flask web interface
+- Real-time prediction
 - Churn probability estimation
-- Flask-based web application
-- Responsive user interface
+- Categorical feature encoding
+- Pre-trained model integration
+- Customer demographic and service information analysis
+- Contract and payment information processing
 
-## Technologies Used
+---
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Joblib
-- Flask
-- HTML
-- CSS
-
-## Input Features
-
-The application uses customer information such as:
-
-- Gender
-- Senior Citizen
-- Partner
-- Dependents
-- Tenure
-- Phone Service
-- Multiple Lines
-- Internet Service
-- Online Security
-- Online Backup
-- Device Protection
-- Tech Support
-- Streaming TV
-- Streaming Movies
-- Contract
-- Paperless Billing
-- Payment Method
-- Monthly Charges
-- Total Charges
-
-## Machine Learning
-
-The trained machine learning model is saved using Joblib and loaded by the Flask application.
-
-The application performs the following steps:
-
-1. Collects customer information from the web form.
-2. Converts numerical values into the required format.
-3. Applies the saved categorical encoders.
-4. Arranges the input features in the same order used during training.
-5. Sends the processed data to the trained model.
-6. Generates a churn prediction.
-7. Calculates the estimated churn probability.
-8. Displays the result on the web interface.
-
-## Project Structure
+## 🧠 Machine Learning Workflow
 
 ```text
-customer-churn-prediction/
-│
-├── data/
-│   └── Telco-Customer-Churn.csv
-│
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── customer_churn_model.pkl
-│   ├── feature_columns.pkl
-│   └── label_encoders.pkl
-│
-├── templates/
-│   └── index.html
-│
-├── app.py
-├── README.md
-└── requirements.txt 
-                     ```
+Customer Dataset
+       ↓
+Data Cleaning & Preprocessing
+       ↓
+Exploratory Data Analysis
+       ↓
+Feature Engineering
+       ↓
+Categorical Encoding
+       ↓
+Model Training
+       ↓
+Model Evaluation
+       ↓
+Model Serialization
+       ↓
+Flask Web Application
+       ↓
+Customer Input
+       ↓
+Churn Prediction + Probability
+                              ```
