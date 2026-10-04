@@ -56,4 +56,112 @@ Flask Web Application
 Customer Input
        ↓
 Churn Prediction + Probability
-                              ```
+
+
+## 🛠️ Tech Stack
+
+### Programming Language
+- Python
+
+### Machine Learning & Data Science
+- Pandas
+- NumPy
+- Scikit-learn
+- Jupyter Notebook
+
+### Web Development
+- Flask
+- HTML5
+- CSS3
+
+### Development Tools
+- Visual Studio Code
+- Git
+- GitHub
+- Python Virtual Environment
+
+### Model Persistence
+- Pickle (`.pkl`)
+
+---
+
+## 📊 Dataset
+
+This project uses the **Telco Customer Churn dataset**, which contains information about telecom customers, their services, contracts, and billing details.
+
+### Dataset Features
+
+The dataset contains customer information such as:
+
+- Gender
+- Senior Citizen
+- Partner
+- Dependents
+- Tenure
+- Phone Service
+- Multiple Lines
+- Internet Service
+- Online Security
+- Online Backup
+- Device Protection
+- Tech Support
+- Streaming TV
+- Streaming Movies
+- Contract
+- Paperless Billing
+- Payment Method
+- Monthly Charges
+- Total Charges
+- Churn
+
+### Target Variable
+
+**Churn** is the target variable.
+
+- `Yes` → Customer is likely to leave the company
+- `No` → Customer is likely to stay with the company
+
+---
+
+## 🌐 Web Application
+
+The trained machine learning model is integrated into a **Flask web application**.
+
+The application provides an interactive form where users can enter customer information such as:
+
+- Demographic information
+- Customer tenure
+- Phone and internet services
+- Security and support services
+- Contract information
+- Billing information
+- Payment method
+
+After submitting the form, the application processes the customer information and generates a prediction.
+
+### Application Output
+
+The application displays:
+
+- **Customer churn prediction**
+- **Estimated churn probability**
+
+Example:
+
+```text
+Customer is likely to STAY
+
+Estimated churn probability: 14.21%
+                                    ```
+
+```markdown
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/bhanu-teja16/customer-churn-prediction.git
+cd customer-churn-prediction
+                             
