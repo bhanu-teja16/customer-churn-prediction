@@ -163,13 +163,14 @@ Estimated churn probability: 14.21%
 ```bash
 git clone https://github.com/bhanu-teja16/customer-churn-prediction.git
 cd customer-churn-prediction
+```
 
 ### 2. Create a virtual environment
 
 ```bash
 
 python -m venv .venv
-
+```
 
 ### 3. Activate the virtual environment
 
@@ -178,19 +179,21 @@ For macOS/Linux:
 ```bash
 
 source .venv/bin/activate
+```
 
 ### 4. Install dependencies
 
 ```bash
 
 pip install -r requirements.txt
+```
 
 ### 5. Run the application
 
 ```bash
 
 python app.py
-
+```
 
 ### 6. Open the application
 
@@ -199,5 +202,5 @@ Open your browser and visit:
 ```text
 
 http://127.0.0.1:5000
-
+```
                             
