@@ -145,16 +145,14 @@ The application displays:
 
 - **Customer churn prediction**
 - **Estimated churn probability**
-                                    ```
-
-
-
+                                    
 ```text
 Example:
 
 Customer is likely to STAY
 
 Estimated churn probability: 14.21%
+```
 
 --------------------------------
 
@@ -172,7 +170,6 @@ cd customer-churn-prediction
 
 python -m venv .venv
 
-```markdown
 
 ### 3. Activate the virtual environment
 
@@ -194,7 +191,6 @@ pip install -r requirements.txt
 
 python app.py
 
-```markdown
 
 ### 6. Open the application
 
